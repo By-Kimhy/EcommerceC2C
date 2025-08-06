@@ -5,9 +5,9 @@ namespace App\Http\Controllers\frontend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class SellController extends Controller
+class TrackingController extends Controller
 {
     public function index(){
-        return view('frontend.sell.index');
+        return view('frontend.other.tracking');
     }
 }
